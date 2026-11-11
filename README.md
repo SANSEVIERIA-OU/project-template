@@ -15,7 +15,7 @@ python3 tools/initialize_project.py SANSEVIERIA-OU/nome-progetto --name "Nome pr
 python3 tools/check_license.py --repository SANSEVIERIA-OU/nome-progetto
 ```
 
-Il comando usa un repository privato come impostazione prudente per il nuovo progetto; scegliere `--public` quando si intende pubblicarlo. L'inizializzazione modifica solo l'avviso del nuovo progetto, senza cambiare la licenza comune. Rivedere il perimetro dei file, i titolari e le eccezioni per componenti di terzi; sostituire questa guida con descrizione, build e installazione del progetto e salvare le modifiche con un commit.
+Il comando usa un repository privato come impostazione prudente per il nuovo progetto; scegliere `--public` quando si intende pubblicarlo. L'inizializzazione modifica solo l'avviso del nuovo progetto, senza cambiare la licenza comune. Rivedere il perimetro dei file, i titolari e le eccezioni per componenti di terzi, lasciando invariato il paragrafo *Acceptance* richiesto dalla sezione 9; sostituire questa guida con descrizione, build e installazione del progetto e salvare le modifiche con un commit.
 
 Il controllo CI richiede che `NOTICE` identifichi il repository effettivo: sul nuovo progetto segnala l'avviso ancora riferito al template finché non viene inizializzato. Le nuove versioni non aggiornano automaticamente i repository già creati dal modello.
 
@@ -38,5 +38,7 @@ Il censimento legge i rami predefiniti, include i repository privati accessibili
 Aggiungere il testo comune, un `NOTICE` specifico e il controllo mediante una modifica dedicata. Conservare le eccezioni di terzi, verificare intestazioni, metadati e pacchetti ed evitare di attribuire alla società diritti che non possiede. Aggiungere il solo file radice non corregge automaticamente intestazioni o concessioni in conflitto.
 
 GitHub non eredita `LICENSE` da un repository `.github` dell'organizzazione. Questo template è una procedura comune per i progetti che lo usano, non un'impostazione globale della piattaforma. [Documentazione GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+
+La licenza è una sola per tutti i progetti: le migliorie emerse da un progetto vanno nel template o in una nuova versione comune, mai in varianti per prodotto. La dichiarazione in [CONTRIBUTING.md](CONTRIBUTING.md) include il consenso alle versioni successive comuni, così i contributi possono seguire la licenza quando evolve.
 
 I contributori conservano i propri diritti. Le autorizzazioni commerciali seguono la sezione 7 della licenza e richiedono l'autorità prevista dai titolari. Le decisioni su merge e rilasci ufficiali seguono [GOVERNANCE.md](GOVERNANCE.md); i marchi seguono [TRADEMARKS.md](TRADEMARKS.md).
