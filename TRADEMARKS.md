@@ -24,7 +24,7 @@ Loghi o badge ufficiali non possono essere impiegati come prova di una qualifica
 
 La qualifica di partner ufficiale e l'uso degli eventuali badge richiedono un'autorizzazione scritta che ne definisca ambito, durata e modalità. L'accordo può disciplinare anche supporto, servizi e responsabilità specifiche.
 
-Le autorizzazioni commerciali previste dalla sezione 7 della SANSEVIERIA License 1.0 devono risultare dal relativo accordo e dalle concessioni dei titolari. Un badge o una qualifica di partner non costituiscono da soli autorizzazione commerciale sul codice.
+Le autorizzazioni commerciali previste dalla sezione 7 della SANSEVIERIA License 1.1 devono risultare dal relativo accordo e dalle concessioni dei titolari. Un badge o una qualifica di partner non costituiscono da soli autorizzazione commerciale sul codice.
 
 ## Contatti
 
