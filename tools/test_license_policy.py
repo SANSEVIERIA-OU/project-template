@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: LicenseRef-SANSEVIERIA-1.0
+# SPDX-License-Identifier: LicenseRef-SANSEVIERIA-1.1
 import tempfile
 from pathlib import Path
 import unittest
@@ -13,7 +13,7 @@ class LicensePolicyTest(unittest.TestCase):
         self.root = Path(self.tmp.name)
         canonical = Path(__file__).resolve().parents[1] / "LICENSE"
         (self.root / "LICENSE").write_bytes(canonical.read_bytes())
-        (self.root / "NOTICE").write_text("SANSEVIERIA License 1.0\nhttps://github.com/SANSEVIERIA-OU/example\n")
+        (self.root / "NOTICE").write_text("SANSEVIERIA License 1.1\nhttps://github.com/SANSEVIERIA-OU/example\n")
 
     def test_valid(self):
         self.assertEqual(check(self.root, "SANSEVIERIA-OU/example"), [])
@@ -34,8 +34,12 @@ class LicensePolicyTest(unittest.TestCase):
     def test_other_repository(self):
         self.assertTrue(check(self.root, "SANSEVIERIA-OU/another-project"))
 
+    def test_previous_version_notice(self):
+        (self.root / "NOTICE").write_text("SANSEVIERIA License 1.0\nhttps://github.com/SANSEVIERIA-OU/example\n")
+        self.assertTrue(check(self.root, "SANSEVIERIA-OU/example"))
+
     def test_prefix_is_not_repository(self):
-        (self.root / "NOTICE").write_text("SANSEVIERIA License 1.0\nhttps://github.com/SANSEVIERIA-OU/example-other\n")
+        (self.root / "NOTICE").write_text("SANSEVIERIA License 1.1\nhttps://github.com/SANSEVIERIA-OU/example-other\n")
         self.assertTrue(check(self.root, "SANSEVIERIA-OU/example"))
 
 

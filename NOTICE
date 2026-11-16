@@ -3,7 +3,7 @@ SANSEVIERIA PROJECT RELEASE NOTICE
 Project: SANSEVIERIA project template
 Official repository: https://github.com/SANSEVIERIA-OU/project-template
 Project steward: SANSEVIERIA OÜ
-Licence: SANSEVIERIA License 1.0; complete text in LICENSE.
+Licence: SANSEVIERIA License 1.1; complete text in LICENSE.
 Release: the Git commit or release tag identifying this source distribution.
 Licensing contact: https://github.com/SANSEVIERIA-OU/project-template/issues
 
@@ -11,7 +11,7 @@ Acceptance: this notice and the complete licence text are supplied so that they
 can be examined and retained in advance. Modifying, distributing or otherwise
 making available the covered software, enabling External Network Use of it, or
 using it in a Commercial Offering constitutes acceptance of SANSEVIERIA License
-1.0 under its section 9. Viewing the code or merely receiving a copy is not
+1.1 under its section 9. Viewing the code or merely receiving a copy is not
 acceptance.
 
 Scope: original software in this repository, except files or components with

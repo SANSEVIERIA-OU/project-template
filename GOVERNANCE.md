@@ -1,6 +1,6 @@
 # Governance dei progetti SANSEVIERIA
 
-Policy comune per i progetti sotto SANSEVIERIA License 1.0, da collegare ai rispettivi repository ufficiali. Questa policy regola la gestione del progetto; non aggiunge restrizioni ai diritti concessi dalla licenza del codice.
+Policy comune per i progetti sotto SANSEVIERIA License 1.1, da collegare ai rispettivi repository ufficiali. Questa policy regola la gestione del progetto; non aggiunge restrizioni ai diritti concessi dalla licenza del codice.
 
 ## Responsabilità e decisioni
 
@@ -27,6 +27,8 @@ I manutentori possono riprendere codice da un fork quando la licenza e la proven
 Ogni release ufficiale identifica la licenza applicabile e conserva gli avvisi di terzi. Eventuali modifiche future della governance non cambiano retroattivamente i diritti concessi su versioni già ricevute.
 
 La cessazione della manutenzione, la rimozione di un repository o la modifica della struttura societaria non costituiscono da sole una revoca delle licenze già concesse. Non viene promesso un obbligo illimitato di sviluppo, assistenza, hosting o accettazione di contributi.
+
+I poteri che i contributori concedono alla società (autorizzazioni commerciali e passaggio alle versioni successive, sezioni 7 e 15 della licenza) non seguono la società se ne cambia il controllo, se viene sciolta o se fallisce: cessano per il codice dei contributori, salvo loro rinnovo espresso, sono sospesi durante le procedure di insolvenza e non passano ad acquirenti, liquidatori o successori. La società pubblica l'evento nei repository ufficiali entro 30 giorni, con progetti e scadenze delle autorizzazioni ancora in vigore. Le regole complete sono nella sezione 7 della licenza e in [CONTRIBUTING](CONTRIBUTING.md). Restano invariati i diritti di uso, modifica e fork di tutti i destinatari.
 
 ## Conflitti e contatti
 
